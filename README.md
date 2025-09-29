@@ -5,3 +5,39 @@
 Дополнительное задание: создать простой веб-интерфейс для общения с моделью (gradio, streamlit и т.д)
 
 По результатам выполнения составить отчет. Описать, какие инструменты и почему были выбраны, какие дополнения могли бы улучшить качество решения.
+
+
+
+## Как запускать:
+
+### Установка зависимостей:
+
+``python -m venv venv``
+
+``source venv/bin/activate``
+
+``pip install -r requirements.txt``
+
+### Запуск локально:
+
+
+``uvicorn app:app --reload``
+
+
+### Запуск в docker:
+
+
+``cd docker``
+
+``./docker-build.sh`` - создать docker image
+
+``docker run -p 8000:8000 arina/sber:master``
+
+
+### Или через docker compose:
+
+
+``./docker-build.sh``
+
+``./docker-compose-up.sh`` - запустить контейнер
+

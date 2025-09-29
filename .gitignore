@@ -5,5 +5,8 @@ __pycache__/
 .DS_Store
 ../.DS_Store
 
+# Jupyter
+.ipynb_checkpoints/
+
 # Virtual environments
 venv/
