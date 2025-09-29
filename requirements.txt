@@ -1,0 +1,8 @@
+category_encoders==2.6.4
+fastapi==0.117.1
+joblib==1.5.2
+numpy==2.0.2
+pandas==2.2.2
+python-multipart==0.0.3
+scikit-learn==1.6.1
+uvicorn==0.13.4
