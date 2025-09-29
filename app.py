@@ -9,3 +9,5 @@ def user_greeting(name):
 # define gradio interface and other parameters
 app = gra.Interface(fn=user_greeting, inputs="text", outputs="text")
 app.launch()
+
+# gradio app.py
