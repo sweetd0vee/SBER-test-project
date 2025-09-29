@@ -1,0 +1,9 @@
+# Python
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+../.DS_Store
+
+# Virtual environments
+venv/
